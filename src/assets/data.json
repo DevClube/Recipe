@@ -1,0 +1,75 @@
+{
+    "recipes": [
+      {
+        "title": "Chef chomicha",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "5.0",
+        "votes": "(73)",
+        "author": "John Keller"
+      },
+      {
+        "title": "Tangia",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "3.0",
+        "votes": "(94)",
+        "author": "Danial Caleem"
+      },
+      {
+        "title": "Awesome Slow Cooker Pot Roast",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "4.5",
+        "votes": "(153)",
+        "author": "Janet Small"
+      },
+      {
+        "title": "Broiled Tilapia Parmesan",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "5.0",
+        "votes": "(524)",
+        "author": "Aleaxa Dorchest"
+      },
+      {
+        "title": "Baked Teriyaki Chicken",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "4.6",
+        "votes": "(404)",
+        "author": "Ben Kaller"
+      },
+      {
+        "title": "Zesty Slow Cooker Chicken",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "3.9",
+        "votes": "(629)",
+        "author": "Sam Brown"
+      },
+      {
+        "title": "Rosemary Ranch Chicken Kabobs",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "3.6",
+        "votes": "(149)",
+        "author": "Theresa Samuel"
+      },
+      {
+        "title": "Slow Cooker Pulled Pork",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "2.9",
+        "votes": "(309)",
+        "author": "Adam Brown"
+      },
+      {
+        "title": "Greek Lemon Chicken and Potatoes",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "3.6",
+        "votes": "(124)",
+        "author": "Thomas Haller"
+      },
+      {
+        "title": "Turkey Posole Dinner",
+        "image": "https://via.placeholder.com/300x160",
+        "rating": "4.0",
+        "votes": "(84)",
+        "author": "Thomas Haller"
+      }
+    ]
+  }
+  
