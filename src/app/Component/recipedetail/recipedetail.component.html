@@ -1,0 +1,128 @@
+
+  <div class="uk-container">
+  <div data-uk-grid>
+    <div class="uk-width-1-2@s">
+      <div><img class="uk-border-rounded-large" [src]="recipe.imageDataUrl" 
+        alt="Image alt"></div>
+    </div>
+    <div class="uk-width-expand@s uk-flex uk-flex-middle">
+      <div>
+        <h1>{{recipe.nomrecipe}}</h1>
+        <p>{{recipe.description}}</p>
+        <div class="uk-margin-medium-top uk-child-width-expand uk-text-center uk-grid-divider" data-uk-grid>
+          <div>
+            <span data-uk-icon="icon: clock; ratio: 1.4"></span>
+            <h5 class="uk-text-500 uk-margin-small-top uk-margin-remove-bottom">Prepared Time</h5>
+            <span class="uk-text-small">{{recipe.tempsCuisson}} mins</span>
+          </div>
+          <!-- <div>
+            <span data-uk-icon="icon: future; ratio: 1.4"></span>
+            <h5 class="uk-text-500 uk-margin-small-top uk-margin-remove-bottom">Total Time</h5>
+            <span class="uk-text-small">50 mins</span>
+          </div> -->
+          <div>
+            <span data-uk-icon="icon: users; ratio: 1.4"></span>
+            <h5 class="uk-text-500 uk-margin-small-top uk-margin-remove-bottom">Person</h5>
+            <span class="uk-text-small">Serves {{recipe.nb_person}}</span>
+          </div>
+        </div>
+        <hr>
+        <div data-uk-grid>
+          <div class="uk-width-auto@s uk-text-small">
+            <!-- <p class="uk-margin-small-top uk-margin-remove-bottom">Created by <a href="#">Alex Williamns</a></p> -->
+            <!-- <span class="uk-text-muted">21 recipes</span> -->
+          </div>
+          <!-- <div class="uk-width-expand@s uk-flex uk-flex-middle uk-flex-right@s">
+            <a href="#" class="uk-icon-link" data-uk-icon="icon: plus-circle; ratio: 1.2" 
+             data-uk-tooltip="title: Save Recipe"></a>
+            <a href="#" class="uk-icon-link uk-margin-left" data-uk-icon="icon: cart; ratio: 1.2" 
+             data-uk-tooltip="title: Shopping List"></a>
+            <a href="#" class="uk-icon-link uk-margin-left" data-uk-icon="icon: print; ratio: 1.2" 
+             data-uk-tooltip="title: Print Recipe"></a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container uk-container-small">
+    <div class="uk-grid-large" data-uk-grid>
+      <div class="uk-width-expand@m">
+        <div class="uk-article">
+
+          <h3>Comments</h3>
+          <ul class="uk-comment-list uk-margin-medium-top">
+            <li>
+              <article class="uk-comment uk-visible-toggle" tabindex="-1">
+                <header class="uk-comment-header uk-position-relative">
+                  <div class="uk-grid-medium uk-flex-middle" data-uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-comment-avatar uk-border-circle" src="https://via.placeholder.com/100x100" width="50" height="50" alt="Alice Thomson">
+                    </div>
+                    <div class="uk-width-expand">
+                      <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Chef Moha</a></h4>
+                      <!-- <p class="uk-comment-meta uk-margin-remove"><a class="uk-link-reset" href="#">12 days ago</a></p> -->
+                      <div class="uk-rating">
+                        <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 0.8"></span>
+                        <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 0.8"></span>
+                        <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 0.8"></span>
+                        <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 0.8"></span>
+                        <span data-uk-icon="icon: star; ratio: 0.8"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a>
+                  </div>
+                </header>
+                <div class="uk-comment-body">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+              </article>
+              <ul>
+                <li>
+           </li>
+                <li>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="uk-width-1-3@m">
+        <h3>Ingredients</h3>
+        <ul class="uk-list uk-list-large uk-list-divider uk-margin-medium-top" *ngFor="let ing of"+{{recipe.Ingredients}}>
+          <li>{{ing.nomIngredient}}</li>
+          
+          <!-- <li>1 kg d'épaule d’agneau </li>
+          <li>500 g de pommes de terre à chair ferme </li>
+          <li>1 aubergine </li>
+          <li>3 tomates </li>
+          <li>2 carottes </li>
+          <li>1 citron confit </li>
+          <li>0,50 botte de coriandre 0,50 botte de coriandre </li>
+          <li>3 gousses de gousses d'ail </li>
+          <li>sel</li> -->
+         
+        </ul>
+        <h3 class="uk-margin-large-top">Tags</h3>
+        <div class="uk-margin-medium-top" data-uk-margin>
+          <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">maroc</span></a>
+          <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">tagin</span></a>
+          <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">lunch</span></a>         
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

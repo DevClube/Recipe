@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { AppRoutingModule } from './app-routing.module';
 
 
 @Component({
@@ -9,6 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'G-kool';
-  
 
 }

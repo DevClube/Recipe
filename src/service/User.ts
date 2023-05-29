@@ -1,11 +1,9 @@
 export interface User{
-    idUtilisateur: number;
-    nomUtilsateur: string;
-    prenomUtilisateur:string;
+    idUtilisateur?: number;
+    nomUtilisateur?: string;
+    prenomUtilisateur?:string;
+    loginUtilisateur?:string;
     mailUtilisateur:string;
-    loginUtilisateur:string;
     passUtilisateur:string;
-    roleUtilisateur:string;
-    isAdmin:boolean;
 
 }

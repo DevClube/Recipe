@@ -13,8 +13,15 @@ import { FooterComponent } from './Component/footer/footer.component';
 import { SignInComponent } from './Component/sign-in/sign-in.component';
 import { SignUpComponent } from './Component/sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
+
+  
 @NgModule({
+
+  
   declarations: [
     AppComponent,
     HomeComponent,
@@ -30,9 +37,14 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule 
+    HttpClientModule,
+    AppRoutingModule,
+    RouterModule, 
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+
 })
 export class AppModule { }
